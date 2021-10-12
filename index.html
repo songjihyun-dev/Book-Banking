@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Book Banking</title>
+    <script
+      src="https://kit.fontawesome.com/a222ec40a7.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="start-screen">
+      <h1>당신의 독서를 저금하세요.</h1>
+      <form class="get-name">
+        <label for="account-name">예금주명</label>
+        <input type="text" name="" id="get-account-name" />
+        <input type="submit" value="발급하기" />
+      </form>
+    </section>
+    <main class="bank-book">
+      <div class="container">
+        <div><span class="user-name">강수천</span>의 독서 통장</div>
+        <div><span class="total-money">0</span>원</div>
+        <div class="btns">
+          <button class="open-deposit-screen">입금하기</button>
+          <span>|</span>
+          <button class="open-book-list">입금 내역</button>
+        </div>
+      </div>
+    </main>
+    <section class="book-lists-container">
+      <!-- <button class="go-home"><i class="fas fa-home"></i></button> -->
+      <header><span class="total-money">123.123</span>원</header>
+      <ul class="book-list">
+        <li>
+          <div class="add-date">2021-10-11 13:24</div>
+          <h2 class="book-name">채식주의자</h2>
+          <h3 class="book-author">한강</h3>
+          <div class="add-money">16,000원</div>
+          <div class="current-money">456,160원</div>
+        </li>
+      </ul>
+    </section>
+    <section class="deposit-screen">
+      <button class="go-home"><i class="fas fa-home"></i></button>
+      <header>
+        <h1>입금</h1>
+        <div class="search-container">
+          <i class="fas fa-search"></i>
+          <form class="search-book">
+            <input
+              type="text"
+              class="search-book-input"
+              placeholder="책 제목을 입력하세요."
+            />
+          </form>
+        </div>
+      </header>
+    </section>
+    <script src="app.js"></script>
+  </body>
+</html>
