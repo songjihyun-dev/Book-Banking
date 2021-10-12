@@ -33,7 +33,7 @@
     </main>
     <section class="book-lists-container">
       <!-- <button class="go-home"><i class="fas fa-home"></i></button> -->
-      <header><span class="total-money">123.123</span>원</header>
+      <header><span class="total-money">123,123</span>원</header>
       <ul class="book-list">
         <li>
           <div class="add-date">2021-10-11 13:24</div>
@@ -49,14 +49,26 @@
       <header>
         <h1>입금</h1>
         <div class="search-container">
-          <i class="fas fa-search"></i>
           <form class="search-book">
             <input
               type="text"
-              class="search-book-input"
+              class="search-book-name"
               placeholder="책 제목을 입력하세요."
             />
+            <input
+              type="text"
+              placeholder="작가 이름을 입력하세요."
+              class="search-author-name hidden"
+            />
+            <input
+              type="text"
+              placeholder="ISBN을 입력하세요."
+              class="search-isbn hidden"
+            />
           </form>
+          <button class="detail-search open">
+            <i class="fas fa-chevron-down"></i>
+          </button>
         </div>
       </header>
     </section>
