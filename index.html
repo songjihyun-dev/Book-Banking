@@ -22,7 +22,10 @@
     </section>
     <main class="bank-book">
       <div class="container">
-        <div><span class="user-name">강수천</span>의 독서 통장</div>
+        <div class="bank-book-name">
+          <span class="user-name"></span>의 독서 통장
+          <button><i class="fa fa-pencil" aria-hidden="true"></i></button>
+        </div>
         <div><span class="total-money">0</span>원</div>
         <div class="btns">
           <button class="open-deposit-screen">입금하기</button>
@@ -32,15 +35,19 @@
       </div>
     </main>
     <section class="book-lists-container">
-      <!-- <button class="go-home"><i class="fas fa-home"></i></button> -->
-      <header><span class="total-money">123,123</span>원</header>
+      <button class="go-to-home"><i class="fas fa-home"></i></button>
+      <header>
+        <h1 class="bank-book-name"></h1>
+        <br />
+        <div><span class="total-money">총입금액</span>원</div>
+      </header>
       <ul class="book-list">
         <li>
-          <div class="add-date">2021-10-11 13:24</div>
-          <h2 class="book-name">채식주의자</h2>
-          <h3 class="book-author">한강</h3>
-          <div class="add-money">16,000원</div>
-          <div class="current-money">456,160원</div>
+          <div class="add-date">입금일</div>
+          <h2 class="book-name">책 제목</h2>
+          <h3 class="book-author">작가</h3>
+          <div class="add-money">책 가격</div>
+          <div class="current-money">총 입금액</div>
         </li>
       </ul>
     </section>
@@ -65,6 +72,7 @@
               placeholder="ISBN을 입력하세요."
               class="search-isbn hidden"
             />
+            <input type="submit" value="검색" />
           </form>
           <button class="detail-search open">
             <i class="fas fa-chevron-down"></i>
