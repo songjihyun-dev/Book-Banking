@@ -1,0 +1,25 @@
+{
+  "name": "book-banking",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./js/search.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "request": "^2.88.2",
+    "requset": "^0.0.1-security"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/songjihyun-dev/Book-Banking.git"
+  },
+  "bugs": {
+    "url": "https://github.com/songjihyun-dev/Book-Banking/issues"
+  },
+  "homepage": "https://github.com/songjihyun-dev/Book-Banking#readme",
+  "description": ""
+}

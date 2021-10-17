@@ -9,14 +9,18 @@
       src="https://kit.fontawesome.com/a222ec40a7.js"
       crossorigin="anonymous"
     ></script>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
     <section class="start-screen">
       <h1>당신의 독서를 저금하세요.</h1>
       <form class="get-name">
         <label for="account-name">예금주명</label>
-        <input type="text" name="" id="get-account-name" />
+        <input
+          type="text"
+          id="get-account-name"
+          placeholder="이름을 입력해주세요."
+        />
         <input type="submit" value="발급하기" />
       </form>
     </section>
@@ -38,7 +42,6 @@
       <button class="go-to-home"><i class="fas fa-home"></i></button>
       <header>
         <h1 class="bank-book-name"></h1>
-        <br />
         <div><span class="total-money">총입금액</span>원</div>
       </header>
       <ul class="book-list">
@@ -79,7 +82,18 @@
           </button>
         </div>
       </header>
+      <ul class="book-list searched-book">
+        <li>
+          <div class="searched-book-name">책 제목</div>
+          <div class="searched-book-author">작가</div>
+          <div class="searched-book-publisher">출판사</div>
+          <div class="isbn">
+            ISBN: <span class="searched-book-isbn">0123456789101</span>
+          </div>
+        </li>
+      </ul>
     </section>
-    <script src="app.js"></script>
+    <script src="./js/app.js"></script>
+    <script src="./js/search.js"></script>
   </body>
 </html>

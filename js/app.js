@@ -49,6 +49,7 @@ function goHome() {
 
   searchByAuthorInput.style.display = "none";
   searchByISBNInput.style.display = "none";
+  detailSearchBtn.innerHTML = '<i class="fas fa-chevron-down"></i>';
 }
 
 function openDeposit() {

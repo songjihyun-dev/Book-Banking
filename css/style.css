@@ -195,11 +195,13 @@ input {
 }
 
 .deposit-screen header {
-  height: 150px;
+  height: 220px;
   background-color: thistle;
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
-
+.deposit-screen ul {
+  margin-top: 0;
+}
 .search-book {
   display: flex;
   flex-direction: column;
@@ -217,6 +219,9 @@ input {
   right: 20px;
 }
 
+.book-lists-container .bank-book-name {
+  margin-bottom: 20px;
+}
 .bank-book-name button {
   background: transparent;
   border: none;
@@ -229,4 +234,23 @@ input {
 
 .bank-book-name i:hover {
   color: #000;
+}
+
+.searched-book-name {
+  font-size: 20px;
+  font-weight: 900;
+}
+
+.searched-book-author {
+  font-size: 15px;
+  font-weight: 500;
+  padding: 5px 0;
+}
+
+.searched-book-publisher {
+  font-size: 15px;
+  padding-bottom: 5px;
+}
+.searched-book .isbn {
+  font-size: 13px;
 }
